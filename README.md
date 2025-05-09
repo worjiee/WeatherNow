@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# WeatherNow
 
-## Getting Started
+A modern, responsive weather application built with React that provides real-time weather information for locations worldwide.
 
-First, run the development server:
+![WeatherNow App Screenshot](screenshot.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Real-time Weather Data**: Get current weather conditions for any location globally
+- **5-Day Forecast**: Plan ahead with accurate weather predictions
+- **Interactive UI**: Dynamic backgrounds and effects based on current weather conditions
+- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
+- **Local Time Display**: See the current local time for any searched location
+- **Weather Maps**: Visualize weather patterns on interactive maps
+- **Dark Mode**: Toggle between light and dark themes for comfortable viewing
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- React (with TypeScript)
+- OpenWeatherMap API
+- EmailJS for contact form
+- CSS3 with custom animations
+- Responsive design principles
 
-## Learn More
+## Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository:
+   ```
+   git clone https://github.com/YourUsername/WeatherNow.git
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Navigate to the project directory:
+   ```
+   cd WeatherNow
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. Install dependencies:
+   ```
+   npm install
+   ```
 
-## Deploy on Vercel
+4. Create a `.env` file in the root directory and add your OpenWeatherMap API key:
+   ```
+   REACT_APP_OPENWEATHER_API_KEY=your_api_key_here
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+5. Start the development server:
+   ```
+   npm start
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Usage
+
+1. Enter a city name in the search bar
+2. View current weather, including temperature, humidity, and wind speed
+3. Check the 5-day forecast
+4. Explore weather on interactive maps
+5. Contact the developer through the integrated form
+
+## Developer
+
+- **Karl Sacayan** - Lead Developer & Creator
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- OpenWeatherMap for providing the weather data API
+- All the users and testers who provided valuable feedback
