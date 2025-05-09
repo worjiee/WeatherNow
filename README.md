@@ -2,7 +2,7 @@
 
 A modern, responsive weather application built with React that provides real-time weather information for locations worldwide.
 
-![WeatherNow App Screenshot](screenshot.png)
+![WeatherNow App Screenshot](ssweb.png)
 
 ## Features
 
