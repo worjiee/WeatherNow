@@ -2,7 +2,9 @@
 
 A modern, responsive weather application built with React that provides real-time weather information for locations worldwide.
 
-![WeatherNow App Screenshot](screenshot.png)
+<img src="public/weathernow-screenshot.jpg" alt="WeatherNow App Screenshot" width="100%" />
+
+*Screenshot: WeatherNow displaying current weather conditions for Manila, Philippines with cloud background animation, local time display, and detailed weather metrics.*
 
 ## Features
 
